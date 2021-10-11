@@ -1,3 +1,3 @@
-# Cheating Hangman
+# Cheating Sapceman
 This is a twist on the classic spaceman game wherein the computer always wins
 By using hash maps and hash sets I added a twist to the classic spaceman game so that unbeknownst to the user the computer will always win. The program first reads in a dictionary list of over forty thousand words and stores them in a hash map whose key values are based on the number of letters in the word. As the user makes guesses the dictionary is shortened until it cannot be shortened without removing all words within the dictionary. The program then chooses the character index that contains the most instances of the guessed letter and retains the words that have that character in that index. When the user ultimately runs out of guesses the program randomly chooses one of the words left in the list and displays it to ensure that the user does not catch on to the deception.
